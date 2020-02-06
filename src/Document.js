@@ -1,4 +1,6 @@
 import React from 'react';
+import  './index.css';
+
 
 const searchingFor = (term) => {
     return function(x) {
@@ -12,7 +14,7 @@ class Document extends React.Component {
             <div>
                 {this.props.documents.filter(searchingFor(this.props.term)).map((document) => {
                     return (
-                        <div>
+                        <div className="result">
                             <a href="#">{document.title}</a>
                             <div>{document.description}</div>
                         </div>

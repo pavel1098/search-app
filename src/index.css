@@ -23,5 +23,10 @@ input {
 
 .search-res {
     text-decoration: none;
-    color: black
+    color: black;
+    margin: 5px;
+}
+
+.result {
+    margin-top: 10px
 }

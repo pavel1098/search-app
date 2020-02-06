@@ -1,0 +1,27 @@
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    
+}
+
+.result-wrap {
+    width: 30%;
+}
+
+.button {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+input {
+    border: 1px solid
+}
+
+.search-res {
+    text-decoration: none;
+    color: black
+}
